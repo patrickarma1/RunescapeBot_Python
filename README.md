@@ -21,3 +21,7 @@ for documents on pyautogui please check out https://pyautogui.readthedocs.io
 
 this document will explain what the functions are doing and the importance of the logic!
 please see <b>main.py</b>
+
+
+
+gathering custom .png files is simple take a screenshot of the current screen with the PrtSc button paste this in paint crop the area that make the item unique from the rest of the screen create a new paint file paste the cropped image. make sure to remove any whitespixles caused by paints easle you can do so by clicking the gray area arround it and dragging the bottom left box up and right as needed.
