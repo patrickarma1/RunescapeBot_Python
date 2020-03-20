@@ -11,7 +11,11 @@ Download and install pycharm https://www.jetbrains.com/pycharm/
 
 <b>import the folowing packages:pyautogui,time,randomint from the random package
   </b>
+
+
 if you are unfamiliar with how to install modules in pycharm please check this out https://www.jetbrains.com/pycharm/guide/tips/install-and-import/
+
+
 
 for documents on pyautogui please check out https://pyautogui.readthedocs.io
 
