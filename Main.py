@@ -16,17 +16,22 @@ time.sleep(3)
 
 # for this example we will create and autominer that mines sanstone and processess it into sand
 def mine():
-    sandstone = None # declaring a variable sandstone and set the value to none than search on screen 20 itterations for the file in Pictures/sandstone.png
+    sandstone = None 
+    # declaring a variable sandstone and set the value to none than search on screen 20 itterations for the file in Pictures/sandstone.png
     for i in range(1,20):
-        sandstone = pyautogui.locateOnScreen('Pictures/sandstone.png',confidence=.95) # this will result in the output of bbox with grid coordinates that we can work with
-    pyautogui.moveTo(sandstone, duration=1.2, tween=pyautogui.easeOutQuad)# okay so lets break this down pyautogui.moveTo this moves the mouse the tween allows different options this one starts the movement fast and slows down to be as humanly accurate as possible
+        sandstone = pyautogui.locateOnScreen('Pictures/sandstone.png',confidence=.95) 
+        # this will result in the output of bbox with grid coordinates that we can work with
+    pyautogui.moveTo(sandstone, duration=1.2, tween=pyautogui.easeOutQuad)
+    # okay so lets break this down pyautogui.moveTo this moves the mouse the tween allows different options this one starts the movement fast and slows down to be as humanly accurate as possible
     pyautogui.rightClick()
     mine = None
     for i in range(1,3):
-        mine = pyautogui.locateOnScreen('Pictures/mine.png') # searches 3 itterations for mine.png or the bitmap we pointed it to
+        mine = pyautogui.locateOnScreen('Pictures/mine.png') 
+        # searches 3 itterations for mine.png or the bitmap we pointed it to
     pyautogui.moveTo(mine, duration=1.2)
     pyautogui.click()
-    time.sleep(randint(10,12))# set the sleep time so the stamina bar only gets about half way down
+    time.sleep(randint(10,12))
+    # set the sleep time so the stamina bar only gets about half way down
 
 
 def grind():
