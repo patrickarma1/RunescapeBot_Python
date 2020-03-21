@@ -32,3 +32,6 @@ getting mouse coordinates can be done the same way in paint as you drag your mou
 
 #TODO
   create a virtual mouse so it can interact with the game while I do other things
+  
+UPDATE:
+   Added mouse_pos.py this displays the mouse position. the console app does not spam output to console window rather updates in the same line
