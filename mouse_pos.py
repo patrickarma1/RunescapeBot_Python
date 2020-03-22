@@ -1,5 +1,8 @@
+import subprocess
+try:
 import pyautogui
-
+except ImportError:
+    
 # displays x and y coordinates of mouse updating in console without multiple lines
 
 def get_pos():
