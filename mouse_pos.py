@@ -1,6 +1,8 @@
 import subprocess
+print("subprocess successfully imported")
 try:
 import pyautogui
+print("pyauogui imported")
 except ImportError:
     subprocess.Popen(['pip install pyautogui']stdout=subprocess.PIPE,universal_newlines=True)
    print("\r""installing pyautogui",end='')
