@@ -2,11 +2,11 @@ import subprocess
 try:
     import pyautogui
 except ImportError:
-    subprocess.Popen(['pip install pyautogui']stdout=subprocess.PIPE,universal_newlines=True)
+    subprocess.call(['pip install pyautogui']stdout=subprocess.PIPE,universal_newlines=True)
 try:
     from random import randint
 except ImportError:
-    subprocess.Popen(['pip install random']stdout=subprocess.PIPE,universal_newlines=True)
+    subprocess.call(['pip install random']stdout=subprocess.PIPE,universal_newlines=True)
 #for setup you will need a folder named Pictures, inside of this you will need 4 png files named as followed
 # sandstone.png
 # sandstone1.png
